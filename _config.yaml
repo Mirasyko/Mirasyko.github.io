@@ -1,7 +1,7 @@
-title: "Your Name — Notes & Projects"
+title: "Miroslav Sykora — Notes & Projects"
 description: "Optimization, mathematics, and machine learning notes; personal reflections; and projects."
-url: "" # set later, e.g. https://yourname.github.io
-baseurl: "" # e.g. /site if using a subpath
+url: "https://mirasyko.github.io" # set later, e.g. https://yourname.github.io
+baseurl: "/Mirasyko.github.io" # e.g. /site if using a subpath
 
 
 markdown: kramdown
@@ -25,29 +25,6 @@ permalink: /projects/:name/
 
 
 permalink: pretty
-
-
-# Defaults for collections
-defaults:
-- scope:
-path: ""
-type: academic
-values:
-layout: note
-category: academic
-- scope:
-path: ""
-type: personal
-values:
-layout: note
-category: personal
-- scope:
-path: ""
-type: projects
-values:
-layout: note
-category: projects
-
 
 # Build settings
 plugins:
