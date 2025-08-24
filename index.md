@@ -70,6 +70,6 @@ title: "Your Name — Home"
 <section id="about" aria-labelledby="about-title">
 <h2 id="about-title">About</h2>
 <div class="item">
-<p>Short bio goes here. Mention your current focus (e.g., convex optimization and stochastic control), what you’re reading, and the kinds of problems you love to solve. Include a simple contact: <a href="mailto:you@example.com">you@example.com</a> · <a href="#">GitHub</a> · <a href="#">LinkedIn</a>.</p>
+<p>TODO: ADD bio. Include a simple contact: <a href="mailto:personal@sykoramiroslav.com">personal@sykoramiroslav.com</a> · <a href="https://github.com/Mirasyko">GitHub</a> .</p>
 </div>
 </section>
