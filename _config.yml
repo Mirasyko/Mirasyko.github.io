@@ -1,7 +1,7 @@
 title: "Miroslav Sykora — Notes & Projects"
 description: "Optimization, mathematics, and machine learning notes; personal reflections; and projects."
-url: "https://mirasyko.github.io" # set later, e.g. https://yourname.github.io
-baseurl: "/Mirasyko.github.io" # e.g. /site if using a subpath
+url: "" #"https://mirasyko.github.io" # set later, e.g. https://yourname.github.io
+baseurl: "" #"/Mirasyko.github.io" # e.g. /site if using a subpath
 
 
 markdown: kramdown
