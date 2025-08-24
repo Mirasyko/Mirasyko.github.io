@@ -13,15 +13,15 @@ syntax_highlighter: rouge
 
 
 collections:
-academic:
-output: true
-permalink: /academic/:name/
-personal:
-output: true
-permalink: /personal/:name/
-projects:
-output: true
-permalink: /projects/:name/
+  academic:
+    output: true
+    permalink: /academic/:name/
+  personal:
+    output: true
+    permalink: /personal/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
 
 
 permalink: pretty
