@@ -9,12 +9,17 @@ permalink: /pages/academic/
 
 
 <div class="list">
-{% assign items = site.academic | sort: 'date' | reverse %}
-{% for post in items %}
-<article class="item">
-<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-<div class="meta">{{ post.date | date: "%B %e, %Y" }}{% if post.tags %} · {{ post.tags | join: ', ' }}{% endif %}</div>
-{% if post.excerpt %}<p>{{ post.excerpt | strip_html }}</p>{% endif %}
-</article>
-{% endfor %}
+{% assign items = site.academic %}
+{% if items %}
+  {% assign items = items | sort: 'date' | reverse %}
+  {% for post in items %}
+    <article class="item">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <div class="meta">{{ post.date | date: "%B %e, %Y" }}{% if post.tags %} · {{ post.tags | join: ", " }}{% endif %}</div>
+      {% if post.excerpt %}<p>{{ post.excerpt | strip_html }}</p>{% endif %}
+    </article>
+  {% endfor %}
+{% else %}
+  <p class="meta">No academic notes yet.</p>
+{% endif %}
 </div>

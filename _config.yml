@@ -4,12 +4,14 @@ url: "" #"https://mirasyko.github.io" # set later, e.g. https://yourname.github.
 baseurl: "" #"/Mirasyko.github.io" # e.g. /site if using a subpath
 
 
+theme: null
+
 markdown: kramdown
 kramdown:
-input: GFM
-math_engine: mathjax
-hard_wrap: false
-syntax_highlighter: rouge
+  input: GFM
+  math_engine: mathjax
+  hard_wrap: false
+  syntax_highlighter: rouge
 
 
 collections:
