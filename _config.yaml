@@ -1,0 +1,55 @@
+title: "Your Name — Notes & Projects"
+description: "Optimization, mathematics, and machine learning notes; personal reflections; and projects."
+url: "" # set later, e.g. https://yourname.github.io
+baseurl: "" # e.g. /site if using a subpath
+
+
+markdown: kramdown
+kramdown:
+input: GFM
+math_engine: mathjax
+hard_wrap: false
+syntax_highlighter: rouge
+
+
+collections:
+academic:
+output: true
+permalink: /academic/:name/
+personal:
+output: true
+permalink: /personal/:name/
+projects:
+output: true
+permalink: /projects/:name/
+
+
+permalink: pretty
+
+
+# Defaults for collections
+defaults:
+- scope:
+path: ""
+type: academic
+values:
+layout: note
+category: academic
+- scope:
+path: ""
+type: personal
+values:
+layout: note
+category: personal
+- scope:
+path: ""
+type: projects
+values:
+layout: note
+category: projects
+
+
+# Build settings
+plugins:
+- jekyll-feed
+- jekyll-sitemap
