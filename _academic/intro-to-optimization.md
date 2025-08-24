@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Convex Optimization — Basics"
 date: 2025-08-24
 tags: [optimization, convexity, duality]
