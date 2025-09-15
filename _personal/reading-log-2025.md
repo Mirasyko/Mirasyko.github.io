@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Reading Log"
 date: 2025-08-20
 tags: [reading, reflection]
